@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "caroveroinfirma:ruined_tank",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 12,
+    "salt": 69675523
+  }
+}

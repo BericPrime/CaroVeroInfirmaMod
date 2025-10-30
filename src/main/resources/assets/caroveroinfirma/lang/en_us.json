@@ -1,0 +1,28 @@
+{
+  "item.caroveroinfirma.biobrass": "Biobrass Shard",
+  "item.caroveroinfirma.biobrass_fragment": "Biobrass Fragment",
+  "block.caroveroinfirma.biobrass_block": "Block of Biobrass",
+
+  "item.caroveroinfirma.monster_jerky": "Monster Jerky",
+  "item.caroveroinfirma.spider_false_caviar": "Spider 'Caviar'",
+  "item.caroveroinfirma.purged_membrane": "Purged Membrane",
+  "item.caroveroinfirma.spiced_membrane": "Spiced Membrane",
+  "item.caroveroinfirma.monster_burger": "Monster Burger",
+
+  "block.caroveroinfirma.garbage_block": "Block of Ancient Garbage",
+  "block.caroveroinfirma.garbage_node": "Ancient Garbage Node",
+
+  "block.caroveroinfirma.bleached_dirt": "Bleached Dirt",
+  "block.caroveroinfirma.bleached_coarse_dirt": "Bleached Coarse Dirt",
+  "block.caroveroinfirma.dead_grass_block": "Dead Grass Block",
+  "block.caroveroinfirma.dead_grass": "Dead Grass",
+  "block.caroveroinfirma.scorched_earth": "Scorched Earth",
+
+  "block.caroveroinfirma.bleached_log": "Bleached Log",
+  "block.caroveroinfirma.bleached_wood": "Bleached Wood",
+
+  "block.caroveroinfirma.ash_pile": "Ash Pile",
+  "block.caroveroinfirma.ash_item": "Ash",
+
+  "creativetab.caroveroinfirma_items_tab": "Caro Vero Infirma"
+}

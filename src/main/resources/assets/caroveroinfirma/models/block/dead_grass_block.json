@@ -1,0 +1,8 @@
+{   "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "particle": "caroveroinfirma:block/bleached_dirt",
+        "bottom": "caroveroinfirma:block/bleached_dirt",
+        "top": "caroveroinfirma:block/dead_grass_block_top",
+        "side": "caroveroinfirma:block/dead_grass_block_side"
+    }
+}

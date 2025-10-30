@@ -1,0 +1,7 @@
+{
+  "type": "caroveroinfirma:ruined_tank",
+  "biomes": "#caroveroinfirma:has_structure/ruined_tank",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box"
+}

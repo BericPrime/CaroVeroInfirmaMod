@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "ashy=false": [
+      {
+        "model": "caroveroinfirma:block/dead_grass_block"
+      },
+      {
+        "model": "caroveroinfirma:block/dead_grass_block",
+        "y": 90
+      },
+      {
+        "model": "caroveroinfirma:block/dead_grass_block",
+        "y": 180
+      },
+      {
+        "model": "caroveroinfirma:block/dead_grass_block",
+        "y": 270
+      }
+    ],
+    "ashy=true": {
+      "model": "caroveroinfirma:block/dead_grass_block_ashy"
+    }
+  }
+}

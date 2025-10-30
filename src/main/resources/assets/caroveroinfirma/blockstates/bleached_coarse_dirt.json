@@ -1,0 +1,21 @@
+{
+  "variants":{
+    "": [
+      {
+        "model": "caroveroinfirma:block/bleached_coarse_dirt"
+      },
+      {
+        "model": "caroveroinfirma:block/bleached_coarse_dirt",
+        "y": 90
+      },
+      {
+        "model": "caroveroinfirma:block/bleached_coarse_dirt",
+        "y": 180
+      },
+      {
+        "model": "caroveroinfirma:block/bleached_coarse_dirt",
+        "y": 270
+      }
+    ]
+  }
+}

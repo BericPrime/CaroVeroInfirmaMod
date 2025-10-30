@@ -1,0 +1,7 @@
+{
+  "type": "caroveroinfirma:smokestacks",
+  "biomes": "#caroveroinfirma:has_structure/smokestacks",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box"
+}

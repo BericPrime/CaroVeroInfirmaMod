@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "caroveroinfirma:block/bleached_log",
+    "side": "caroveroinfirma:block/bleached_log"
+  }
+}

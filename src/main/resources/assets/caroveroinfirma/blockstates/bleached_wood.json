@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "caroveroinfirma:block/bleached_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "caroveroinfirma:block/bleached_wood"
+    },
+    "axis=z": {
+      "model": "caroveroinfirma:block/bleached_wood",
+      "x": 90
+    }
+  }
+}

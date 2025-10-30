@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "caroveroinfirma:biobrass_block",
+    "caroveroinfirma:garbage_block",
+    "caroveroinfirma:garbage_node"
+  ]
+}

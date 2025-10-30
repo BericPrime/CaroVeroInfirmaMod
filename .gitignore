@@ -1,0 +1,32 @@
+# === Gradle ===
+.gradle/
+build/
+out/
+run/
+logs/
+classes/
+bin/
+
+# === IDEs ===
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# === Minecraft run folders ===
+run/
+run-server/
+run-data/
+
+# === System junk ===
+.DS_Store
+Thumbs.db
+
+# === Cache ===
+cache/
+.gradle-cache/
+.libs/
