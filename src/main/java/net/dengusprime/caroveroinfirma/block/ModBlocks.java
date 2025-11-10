@@ -2,6 +2,7 @@ package net.dengusprime.caroveroinfirma.block;
 
 import net.dengusprime.caroveroinfirma.CaroVeroInfirma;
 import net.dengusprime.caroveroinfirma.item.ModItems;
+import net.dengusprime.caroveroinfirma.block.autodoc.*;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -27,6 +28,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLEACHED_DIRT = registerBlock("bleached_dirt",()-> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
     public static final RegistryObject<Block> BLEACHED_COARSE_DIRT = registerBlock("bleached_coarse_dirt",()-> new Block(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)));
     public static final RegistryObject<Block> DEAD_GRASS_BLOCK = registerBlock("dead_grass_block",()-> new DeadGrassBlock(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+
+    public static final RegistryObject<Block> AUTODOC_XI = BLOCKS.register("autodoc_xi", () -> new AutodocXIBlock(BlockBehaviour.Properties.of().strength(2.5F).noOcclusion()));
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
         registerBlockItem(name, toReturn);

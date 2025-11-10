@@ -1,0 +1,12 @@
+{
+	"variants": {
+		"part=foot,facing=south": { "model": "caroveroinfirma:block/autodoc_xi_foot", "y": 180 },
+		"part=foot,facing=north": { "model": "caroveroinfirma:block/autodoc_xi_foot" },
+		"part=foot,facing=east":  { "model": "caroveroinfirma:block/autodoc_xi_foot", "y": 90 },
+		"part=foot,facing=west":  { "model": "caroveroinfirma:block/autodoc_xi_foot", "y": 270 },
+		"part=head,facing=south": { "model": "caroveroinfirma:block/autodoc_xi_head", "y": 180 },
+		"part=head,facing=north": { "model": "caroveroinfirma:block/autodoc_xi_head" },
+		"part=head,facing=east":  { "model": "caroveroinfirma:block/autodoc_xi_head", "y": 90 },
+		"part=head,facing=west":  { "model": "caroveroinfirma:block/autodoc_xi_head", "y": 270 }
+	}
+}

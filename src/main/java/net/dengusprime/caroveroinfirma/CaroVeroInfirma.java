@@ -2,14 +2,18 @@ package net.dengusprime.caroveroinfirma;
 
 import com.mojang.logging.LogUtils;
 import net.dengusprime.caroveroinfirma.block.ModBlocks;
+import net.dengusprime.caroveroinfirma.client.screen.AutodocXIScreen;
+import net.dengusprime.caroveroinfirma.block.entity.ModBlockEntities;
 import net.dengusprime.caroveroinfirma.item.ModCreativeTabs;
 import net.dengusprime.caroveroinfirma.item.ModItems;
+import net.dengusprime.caroveroinfirma.menu.ModMenus;
 import net.dengusprime.caroveroinfirma.network.CyberPowerNetwork;
 import net.dengusprime.caroveroinfirma.worldgen.biome.ModTerrablender;
 import net.dengusprime.caroveroinfirma.worldgen.biome.surface.ModSurfaceRules;
 import net.dengusprime.caroveroinfirma.worldgen.feature.ModFeatures;
 import net.dengusprime.caroveroinfirma.worldgen.structure.ModStructurePieceTypes;
 import net.dengusprime.caroveroinfirma.worldgen.structure.ModStructureTypes;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -46,6 +50,8 @@ public class CaroVeroInfirma {
         ModFeatures.register(modEventBus);
         ModStructureTypes.STRUCTURE_TYPES.register(modEventBus);
         ModStructurePieceTypes.STRUCTURE_PIECE_TYPES.register(modEventBus);
+        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
+        ModMenus.MENUS.register(modEventBus);
 
         //hopefully registers the power system
         CyberPowerNetwork.register();
@@ -69,8 +75,7 @@ public class CaroVeroInfirma {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.BIOBRASS);
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){A
         }
     }
 
@@ -86,6 +91,7 @@ public class CaroVeroInfirma {
         public static void onClientSetup(FMLClientSetupEvent event) {
             event.enqueueWork(() -> {
                 ItemBlockRenderTypes.setRenderLayer(ModBlocks.GARBAGE_NODE.get(), RenderType.cutout()); //should make transparent?
+                MenuScreens.register(ModMenus.AUTODOC_XI.get(), AutodocXIScreen::new);
             });
         }
     }

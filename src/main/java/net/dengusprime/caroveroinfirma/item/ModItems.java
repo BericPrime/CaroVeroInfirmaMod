@@ -1,11 +1,10 @@
 package net.dengusprime.caroveroinfirma.item;
 
 import net.dengusprime.caroveroinfirma.CaroVeroInfirma;
+import net.dengusprime.caroveroinfirma.block.ModBlocks;
 import net.dengusprime.caroveroinfirma.item.cybermods.CyberMod;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BowlFoodItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -58,6 +57,7 @@ public class ModItems {
     public static final RegistryObject<Item> SPICED_MEMBRANE = ITEMS.register("spiced_membrane",() -> new Item(new Item.Properties().food(ModFoods.SPICED_MEMBRANE)));
     public static final RegistryObject<Item> MONSTER_BURGER = ITEMS.register("monster_burger",() -> new Item(new Item.Properties().food(ModFoods.MONSTER_BURGER)));
 
+    public static final RegistryObject<Item> AUTODOC_XI_ITEM = ITEMS.register("autodoc_xi", () -> new BlockItem(ModBlocks.AUTODOC_XI.get(), new Item.Properties()));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
